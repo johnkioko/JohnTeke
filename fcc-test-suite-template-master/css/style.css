@@ -30,16 +30,14 @@ body {
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
 }
-.nav-link{
+.nav-link {
   font-size: 20px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   text-decoration: none;
   color: black;
   padding: 10px 30px;
-  border-bottom: 1px  solid grey;
-
-
+  border-bottom: 1px solid grey;
 }
 
 header {
@@ -63,4 +61,10 @@ header {
   list-style: none;
   position: relative;
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 15px;
+  }
 }
